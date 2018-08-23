@@ -1,0 +1,123 @@
+body{
+	background-color: #fff;
+	color: #000;
+}
+h2{
+    font-size: 20px;
+    letter-spacing: 0.3px;
+}
+.iconsheader{
+	text-align: center;
+    margin-top: 26px;
+}
+.iconsheader p{
+    font-size: 13px;
+    letter-spacing: 0.2px;
+    margin-top: 20px;
+    padding-right: 4px;
+    font-weight: bold;
+}
+.icons{
+	background-color: #fff;	
+}
+.iconBlock{
+	text-align: center;
+    margin-top: 44px;
+    margin-bottom: 31px;
+}
+.iconBlock h3{
+    text-align: center;
+    margin-top: 24px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.iconBlock p{
+	text-align: left;
+    color: #8e8e8e;
+    margin-top: 17px;
+    font-size: 11px;
+    padding-left: 23px;
+    padding-right: 20px;
+    line-height: 13px;
+    min-height: 84px;
+}
+.iconBlock a{
+	font-size: 11px;
+	color: #003ea5;
+    font-weight: bold;
+    transition: color 1s;
+}
+.iconBlock a:hover{
+	text-decoration: none;
+	color: #000;
+}
+footer{
+	background-color: #1c2f35;
+	color: #fff;	
+    padding-top: 40px;
+    padding-bottom: 48px;
+}
+footer h4{
+	font-size: 33px;
+    letter-spacing: 0.3px;
+    margin-left: 14px;
+}
+footer a{
+    color: #fff;
+    margin-right: 135px;
+    font-size: 15px;
+    letter-spacing: 0.8px;	
+}
+footer a:last-child{
+	margin-right: 0px;
+}
+.links{
+    padding-top: 18px;
+    position: relative;
+    left: 40px;
+}
+
+@media only screen and (min-width: 1500px){
+    .icons .container{
+        width: 870px;
+    }
+    footer .container{
+        width: 920px;
+    }
+}/*end min-width: 1500px*/	
+
+@media only screen and (max-width: 991px){
+	.iconBlock p {
+	    text-align: center;
+        min-height: auto;
+	}
+	.links{
+		left: 0;
+	}
+	footer a{
+	    margin-right: 0;
+	    display: inline-block;
+	    width: 32.9%;
+	    text-align: center;
+	}
+	footer h4{
+	    margin-left: 0;
+    	text-align: center;
+	}
+}/*end min-width: 991px*/
+
+@media only screen and (max-width: 767px){
+	footer a{
+		width: 32.6%;
+	}
+}/*end min-width: 767px*/
+
+@media only screen and (max-width: 414px){
+	footer a{
+	    width: 32.0%;
+	    font-size: 13px;
+	}
+	footer h4{
+	    font-size: 30px;
+	}
+}/*end min-width: 414px*/
