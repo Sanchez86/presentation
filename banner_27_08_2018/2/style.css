@@ -1,0 +1,282 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+.clear{
+    clear: both;
+}
+
+.sub_wrapper{
+    width:300px;
+    height:250px;
+    position: relative;
+    overflow: hidden;
+    color:#fff;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+}
+.wrapper{
+        width:100%;
+        height:100%;
+        background-image: url('img2.png');
+        position: relative;
+        
+    }
+.girl{
+    background-image: url('b_girl.jpg');
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.bg{
+    background-image: url('b_bg.png');
+    background-repeat: no-repeat;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+.b_logo{
+    background-image: url('b_logo.png');
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 47px;
+    position: absolute;
+    top: 11px;
+    left: 17px;
+    right: 0;
+    bottom: 0;
+    z-index: 3; 
+}
+.pilot{
+    background-image: url('pilot.jpg');
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 49px;
+    position: absolute;
+    top: 77px;
+    left: 7px;
+    right: 0;
+    bottom: 0;
+    z-index: 3; 
+}
+.startup{
+    background-image: url('startup.jpg');
+    background-repeat: no-repeat;
+    width: 112px;
+    height: 89px;
+    position: absolute;
+    top: 143px;
+    left: 37px;
+    right: 0;
+    bottom: 0;
+    z-index: 3; 
+}
+/*---------*/
+.bg_black{
+    background-image: url('bg_black.png');
+    background-repeat: no-repeat;
+    width: 277px;
+    height: 231px;
+    position: absolute;
+    top: 9px;
+    left: 12px;
+    right: 0;
+    bottom: 0;
+    z-index: 2; 
+}
+
+.b_logo2{
+    background-image: url(b_logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 122px;
+    height: 40px;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    margin: 0 auto;
+}
+h1{
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 44px;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+h2{
+    color: #52acff;
+    font-size: 16.5px;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 3px;
+}
+.crowdCube{
+    background-image: url(crowdCube.png);
+    background-repeat: no-repeat;
+    width: 104px;
+    height: 14px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 9px;
+    letter-spacing: 0.5px;
+    margin-top: 18px;
+}
+.bg_black>p{
+    color: #bebebe;
+    font-size: 12.4px;
+    margin-left: 50px;
+    position: relative;
+    top: -1px;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+}
+.link{
+    display: block;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 229px;
+    height: 30px;
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 3;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    line-height: 31px;
+    font-weight: 300;
+    font-family: 'Ubuntu', sans-serif;
+    padding-right: 15px;
+    padding-left: 0px;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5682f3+0,003fa6+100 */
+background: #5682f3; /* Old browsers */
+background: -moz-linear-gradient(top, #5682f3 0%, #003fa6 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #5682f3 0%,#003fa6 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #5682f3 0%,#003fa6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5682f3', endColorstr='#003fa6',GradientType=0 ); /* IE6-9 */
+}
+
+.link span{
+    position: absolute;
+    top: 7px;
+    right: 9px;
+    background-image: url(link_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    width: 15px;
+    height: 15px;
+    transition: right 0.3s;
+}
+.link:hover span{
+    right: 7px;
+}
+.time_block{
+    text-align: center;
+    margin-top: 5px;
+}
+.cicle_block{
+    display: inline-block;
+    max-width: 42px;
+    text-align: center;
+}
+.cicle{
+display: inline-block;
+    width: 39px;
+    height: 39px;
+    background-color: #dddddd;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 41px;
+    color: #727272;
+    font-size: 16px;
+}
+.cicle_block p{
+    font-size: 10px;
+    color: #dddddd;
+    margin-top: 2px;
+}
+#timer{
+    color: #000;
+}
+/*
+.wrapper2{
+    display: none;
+    width:100%;
+    height:100%;
+    background-image: url('img2.png');
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+*/
+@media only screen and (max-width: 768px){
+
+}  
