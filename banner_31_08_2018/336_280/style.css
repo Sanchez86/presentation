@@ -322,7 +322,7 @@ display: inline-block;
     margin-top: 15px;
     font-size: 13px;
     position: absolute;
-    left: 234px;
+    left: 240px;
 }
 .sub_wrapper_728_90 h2{
     margin-top: 6px;
@@ -357,11 +357,11 @@ display: inline-block;
     top: 6px;
 }
 .sub_wrapper_728_90 h3{
-	font-size: 8px;
+    font-size: 7px;
     position: absolute;
     top: 0;
-    right: 264px;
-    margin-top: 26px;
+    right: 268px;
+    margin-top: 13px;
 }
 .sub_wrapper_728_90 .cicle{
     font-size: 12px;
@@ -375,9 +375,8 @@ display: inline-block;
 }
 .sub_wrapper_728_90 .time_block{
     position: absolute;
-    right: 229px;
-    top: 35px;
-    font-size: 12px;
+    right: 225px;
+    top: 21px;
 }
 
 .sub_wrapper_728_90 .bg{
